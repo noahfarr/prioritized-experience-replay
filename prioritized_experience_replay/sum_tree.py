@@ -7,6 +7,7 @@ class SumTree:
     data: np.ndarray
     size: int
     num_entries: int
+    real_size: int
 
     def __init__(self, size: int):
         self.nodes = np.zeros((2 * size - 1))
